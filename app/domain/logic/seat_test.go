@@ -9,6 +9,7 @@ import (
 	"testing"
 )
 
+// TestSeatTicket Test case for find Ticket from seat index
 func TestSeatTicket(t *testing.T) {
 
 	//Test Set 1
@@ -18,7 +19,7 @@ func TestSeatTicket(t *testing.T) {
 
 	//Test Set 2
 
-	doTestSeatTicketWithData(t, 10, 6, 19, 7, 3)
+	doTestSeatTicketWithData(t, 10, 5, 19, 7, 1)
 
 
 	//Test Set 3
@@ -27,6 +28,7 @@ func TestSeatTicket(t *testing.T) {
 
 }
 
+// doTestSeatTicketWithData  find Ticket from seat index test function
 func doTestSeatTicketWithData(t *testing.T, numRow, numCol, index, expectedRow, expectedCol int) {
 	seat := entity.Seat{
 		Name: "Test",

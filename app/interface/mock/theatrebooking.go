@@ -24,6 +24,7 @@ func NewTheatreBookingRepository(col int, row int) *theatreBoookingRepository {
 	}
 }
 
+// DoBooking book a seat and store in database
 func (r *theatreBoookingRepository) DoBooking(name string) (*entity.Seat, error) {
 
 	if len(r.seats) == r.col*r.row {
@@ -38,14 +39,17 @@ func (r *theatreBoookingRepository) DoBooking(name string) (*entity.Seat, error)
 	return &seat, nil
 }
 
+// GetNumSeatsPerRow get number of seats per row
 func (r *theatreBoookingRepository) GetNumSeatsPerRow() int {
 	return r.col
 }
 
+// GetNumRow get number of row in theatre
 func (r *theatreBoookingRepository) GetNumRow() int {
 	return r.row
 }
 
+// SeatsLeft get number of seats left in theatre
 func (r *theatreBoookingRepository) SeatsLeft() int {
 	return r.col*r.row - len(r.seats)
 }

@@ -34,6 +34,7 @@ func BuildTheatreBookingUseCase(col int, row int) *theatreBookingUsecase {
 	return u
 }
 
+// DoBookingWithNumberofSeats do booking with number of seats
 func (u *theatreBookingUsecase) DoBookingWithNumberofSeats(number_of_seat int) (*[]model.Ticket, error) {
 
 	if number_of_seat > u.repo.SeatsLeft() {
@@ -63,6 +64,7 @@ func (u *theatreBookingUsecase) DoBookingWithNumberofSeats(number_of_seat int) (
 	return &tickets, nil
 }
 
+// doBooking do booking by name for each seat
 func (u *theatreBookingUsecase) doBooking(name string, numCol, numRow int) (*model.Ticket, error) {
 
 	seat, err := u.service.DoBooking(name)

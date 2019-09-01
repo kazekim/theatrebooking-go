@@ -19,6 +19,7 @@ func NewTheatreBookingService(repo repository.TheatreBookingRepository) *Theatre
 	}
 }
 
+// DoBooking book a seat service
 func (s *TheatreBookingService) DoBooking(name string) (*entity.Seat, error) {
 	return s.repo.DoBooking(name)
 }

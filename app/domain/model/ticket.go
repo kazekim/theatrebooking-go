@@ -4,6 +4,7 @@
 
 package model
 
+// Ticket output ticket data for customer
 type Ticket struct {
 	Row int
 	SeatNumber int
