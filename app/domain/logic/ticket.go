@@ -10,6 +10,7 @@ import (
 	"math"
 )
 
+// SeatTicket find Ticket from seat index function
 func SeatTicket(seat entity.Seat, numCol int, numRow int) model.Ticket {
 
 	row := numRow - int(math.Floor(float64(seat.Index) / float64(numCol)))
@@ -26,11 +27,17 @@ func SeatTicket(seat entity.Seat, numCol int, numRow int) model.Ticket {
 	return ticket
 }
 
+// centerOf find center of row
 func centerOf(numCol int) int {
 	center := int(math.Ceil(float64(numCol)/2.0))
+
+	if numCol %2 == 0 {
+		center += 1
+	}
 	return center
 }
 
+// seatNumberByIndex find seat number from index
 func seatNumberByIndex(index int, numCol int) int {
 
 	centerIdx := centerOf(numCol)
@@ -42,7 +49,6 @@ func seatNumberByIndex(index int, numCol int) int {
 
 
 	if numCol %2 == 0 {
-		seatNumber += 1
 		if idx %2 == 0 {
 			seatNumber -= pos
 		}else{
