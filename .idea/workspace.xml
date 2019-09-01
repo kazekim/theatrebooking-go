@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="67919f95-b4a1-4c08-9c69-735583c757e4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/domain/entity/seat.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/domain/logic/seat_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/domain/logic/ticket.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/domain/model/ticket.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/domain/repository/theatrebooking.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/domain/service/theatrebooking.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/interface/mock/theatrebooking.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/usecase/theatrebooking.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmd/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/jhfmt/print.go" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/domain/logic/seat_test.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="88">
+              <caret line="25" column="48" selection-start-line="25" selection-start-column="48" selection-end-line="25" selection-end-column="48" />
+              <folding>
+                <element signature="e#100#179#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/domain/logic/ticket.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="69">
+              <caret line="12" column="15" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/cmd/main.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="292">
+              <caret line="41" column="50" selection-start-line="41" selection-start-column="50" selection-end-line="41" selection-end-column="50" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go File" />
+      </list>
+    </option>
+  </component>
+  <component name="GOROOT" path="/usr/local/Cellar/go/1.12.7/libexec" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/app/domain/logic/seatfinder.go" />
+        <option value="$PROJECT_DIR$/app/domain/entity/seat.go" />
+        <option value="$PROJECT_DIR$/app/domain/logic/seatindex.go" />
+        <option value="$PROJECT_DIR$/app/domain/model/seat.go" />
+        <option value="$PROJECT_DIR$/app/domain/service/theatrebooking.go" />
+        <option value="$PROJECT_DIR$/app/domain/repository/theatrebooking.go" />
+        <option value="$PROJECT_DIR$/app/interface/mock/theatrebooking.go" />
+        <option value="$PROJECT_DIR$/app/domain/model/ticket.go" />
+        <option value="$PROJECT_DIR$/app/domain/logic/ticket.go" />
+        <option value="$PROJECT_DIR$/app/usecase/theatrebooking.go" />
+        <option value="$PROJECT_DIR$/app/domain/logic/seat_test.go" />
+        <option value="$PROJECT_DIR$/cmd/main.go" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/theatrebooking-go.iml" />
+        <option value="$PROJECT_DIR$/.idea/misc.xml" />
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/.idea/modules.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="22" />
+    <option name="y" value="30" />
+    <option name="width" value="1365" />
+    <option name="height" value="808" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="theatrebooking-go" type="b2602c69:ProjectViewProjectNode" />
+              <item name="theatrebooking-go" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="theatrebooking-go" type="b2602c69:ProjectViewProjectNode" />
+              <item name="theatrebooking-go" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="theatrebooking-go" type="b2602c69:ProjectViewProjectNode" />
+              <item name="theatrebooking-go" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="theatrebooking-go" type="b2602c69:ProjectViewProjectNode" />
+              <item name="theatrebooking-go" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
+              <item name="entity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="theatrebooking-go" type="b2602c69:ProjectViewProjectNode" />
+              <item name="theatrebooking-go" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
+              <item name="logic" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="theatrebooking-go" type="b2602c69:ProjectViewProjectNode" />
+              <item name="theatrebooking-go" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="theatrebooking-go" type="b2602c69:ProjectViewProjectNode" />
+              <item name="theatrebooking-go" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
+              <item name="repository" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="theatrebooking-go" type="b2602c69:ProjectViewProjectNode" />
+              <item name="theatrebooking-go" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="theatrebooking-go" type="b2602c69:ProjectViewProjectNode" />
+              <item name="theatrebooking-go" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="interface" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="theatrebooking-go" type="b2602c69:ProjectViewProjectNode" />
+              <item name="theatrebooking-go" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="interface" type="462c0819:PsiDirectoryNode" />
+              <item name="mock" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="theatrebooking-go" type="b2602c69:ProjectViewProjectNode" />
+              <item name="theatrebooking-go" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="usecase" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="theatrebooking-go" type="b2602c69:ProjectViewProjectNode" />
+              <item name="theatrebooking-go" type="462c0819:PsiDirectoryNode" />
+              <item name="cmd" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="theatrebooking-go" type="b2602c69:ProjectViewProjectNode" />
+              <item name="theatrebooking-go" type="462c0819:PsiDirectoryNode" />
+              <item name="pkg" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="theatrebooking-go" type="b2602c69:ProjectViewProjectNode" />
+              <item name="theatrebooking-go" type="462c0819:PsiDirectoryNode" />
+              <item name="pkg" type="462c0819:PsiDirectoryNode" />
+              <item name="jhfmt" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="go.gopath.indexing.explicitly.defined" value="true" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="go.sdk.automatically.set" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/pkg/jhfmt" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/pkg/jhfmt" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="TestSeatTicket in github.com/kazekim/theatrebooking-go/app/domain/logic" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="theatrebooking-go" />
+      <working_directory value="$PROJECT_DIR$/app/domain/logic" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="github.com/kazekim/theatrebooking-go/app/domain/logic" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^TestSeatTicket$" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Test.TestSeatTicket in github.com/kazekim/theatrebooking-go/app/domain/logic" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="TestHistory">
+    <history-entry file="TestSeatTicket_in_github_com_kazekim_theatrebooking-go_app_domain_logic - 2019.09.02 at 01h 30m 21s.xml">
+      <configuration name="TestSeatTicket in github.com/kazekim/theatrebooking-go/app/domain/logic" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestSeatTicket_in_github_com_kazekim_theatrebooking-go_app_domain_logic - 2019.09.02 at 01h 35m 00s.xml">
+      <configuration name="TestSeatTicket in github.com/kazekim/theatrebooking-go/app/domain/logic" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestSeatTicket_in_github_com_kazekim_theatrebooking-go_app_domain_logic - 2019.09.02 at 01h 35m 47s.xml">
+      <configuration name="TestSeatTicket in github.com/kazekim/theatrebooking-go/app/domain/logic" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestSeatTicket_in_github_com_kazekim_theatrebooking-go_app_domain_logic - 2019.09.02 at 01h 36m 38s.xml">
+      <configuration name="TestSeatTicket in github.com/kazekim/theatrebooking-go/app/domain/logic" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestSeatTicket_in_github_com_kazekim_theatrebooking-go_app_domain_logic - 2019.09.02 at 01h 40m 13s.xml">
+      <configuration name="TestSeatTicket in github.com/kazekim/theatrebooking-go/app/domain/logic" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestSeatTicket_in_github_com_kazekim_theatrebooking-go_app_domain_logic - 2019.09.02 at 01h 42m 02s.xml">
+      <configuration name="TestSeatTicket in github.com/kazekim/theatrebooking-go/app/domain/logic" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="22" y="30" width="1365" height="808" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2494331" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" weight="0.32960895" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32960895" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app/domain/repository/theatrebooking.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="4" lean-forward="true" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pkg/jhfmt/print.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/interface/mock/theatrebooking.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="118">
+          <caret line="35" column="35" selection-start-line="35" selection-start-column="35" selection-end-line="35" selection-end-column="35" />
+          <folding>
+            <element signature="e#99#126#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/domain/entity/seat.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/usecase/theatrebooking.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="71" column="53" selection-start-line="71" selection-start-column="53" selection-end-line="71" selection-end-column="53" />
+          <folding>
+            <element signature="e#102#231#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/domain/service/theatrebooking.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="343">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+          <folding>
+            <element signature="e#102#230#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/domain/model/ticket.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/domain/logic/ticket.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="12" column="15" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/domain/logic/seat_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="25" column="48" selection-start-line="25" selection-start-column="48" selection-end-line="25" selection-end-column="48" />
+          <folding>
+            <element signature="e#100#179#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmd/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="41" column="50" selection-start-line="41" selection-start-column="50" selection-end-line="41" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
